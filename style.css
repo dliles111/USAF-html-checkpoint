@@ -1,128 +1,152 @@
 .body{
-    margin: 0;
-    background-color:white;
+margin: 0;
+background-color:white;
 }
 
 .container{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   background-color: rgb(79, 86, 94);
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: rgb(79, 86, 94);
 }
 
 .container_body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
 }
 .container_img{
-    padding: 5px 15px;
-    display: grid;
-    grid-column-gap: 50px;
-    background-color: white;
-    margin-top: 30px;
+padding: 5px 15px;
+display: grid;
+grid-column-gap: 50px;
+background-color: white;
+margin-top: 30px;
+}
+
+.container_img_final{
+display: flex;
+flex-direction: row;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_section_final{
+margin-top: 20px;
+}
+.img_section_final_title{
+   margin-left: 50px;
+    }
+
+.img_section_final_title_two{
+font-size: 25px;
+}
+
+.img_section_final_p_one{
+font-size: 15px;
+}
+.img_section_final_p_two{
+font-size: 15px;
 }
 
 .navbar_title_left{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0;
-    margin: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0;
+margin: 0;
 }
 
 #site-name{
-    font-weight: lighter;
-    font-size: 20px; 
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-blend-mode: luminosity;
-    margin-left: 15px;
+font-weight: lighter;
+font-size: 20px; 
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+background-blend-mode: luminosity;
+margin-left: 15px;
 }
 
 .navbar_btn_left{
-    font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbar_btn_home{
-    margin-left: 10px;
-    padding: 5px 5px;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
+margin-left: 10px;
+padding: 5px 5px;
+font-size: 15px;
+color: white;
+text-decoration: none;
 }
 
 #navbar_btn_login{
-    padding: 5px 5px;
-    font-size: 15px;
-    color: gray;
-    text-decoration: none;
+padding: 5px 5px;
+font-size: 15px;
+color: gray;
+text-decoration: none;
 }
 
 .navbar_title_right{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0;
-    margin-right: 15px;
-    margin-bottom: 15px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0;
+margin-right: 15px;
+margin-bottom: 15px;
 }
 .navbar_btn_right{
-    font-weight: lighter;
-    font-size: 15px; 
-    color: orange;
-    padding: 2px 2px;
-    border-color: orange;
-    border: 9px 1px;
-    padding: 8px 4px;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-blend-mode: luminosity;
+font-weight: lighter;
+font-size: 15px; 
+color: orange;
+padding: 2px 2px;
+border-color: orange;
+border: 9px 1px;
+padding: 8px 4px;
+border-radius: 5px;
+font-family: Arial, Helvetica, sans-serif;
+background-blend-mode: luminosity;
 }
 
 #search{
-    background: white;
-    box-sizing: content-box;
-    height: 30px;
-    box-sizing: 50px;
-    border-radius: 5px;
+background: white;
+box-sizing: content-box;
+height: 30px;
+box-sizing: 50px;
+border-radius: 5px;
 }
 
 .main_login_title{
-    display: flex;
-    justify-content: center;
-    font-weight: lighter;
-    font-size: 25px; 
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+font-weight: lighter;
+font-size: 25px; 
+color: black;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_login_text{
-    font-weight: lighter;
-    font-size: 12px; 
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 130%;
-    padding: 10px 75px;
-    margin: 5px 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
+font-weight: lighter;
+font-size: 12px; 
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+width: 130%;
+padding: 10px 75px;
+margin: 5px 10px;
+border-radius: 5px;
+box-sizing: border-box;
 }
 
 .main_login_btn{
-    font-weight: lighter;
-    font-size: 12px; 
-    color: white;
-    background: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 95px;
-    padding: 7px 5px;
-    border-width: thin;
-    border-color: blue;
-    border-radius: 5px;
+font-weight: lighter;
+font-size: 12px; 
+color: white;
+background: blue;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 95px;
+padding: 7px 5px;
+border-width: thin;
+border-color: blue;
+border-radius: 5px;
 }
 
 .back_to_results{
@@ -141,5 +165,32 @@ background-color: rgb(87, 84, 84);
 color: orange;
 font-family: Arial, Helvetica, sans-serif;
 font-size: thin;
+margin-left: 10px;
 }
 
+.final_comment_section{
+margin-left: 15px;
+}
+.final_comment{
+font-family: Arial, Helvetica, sans-serif;
+}
+#final_comment_sec{
+font-family: Arial, Helvetica, sans-serif;
+height: 30px;
+box-sizing: 50px;
+border-radius: 5px;
+background: white;
+box-sizing: content-box;
+}
+
+.comment_btn{
+font-weight: lighter;
+font-size: 12px; 
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border-color: blue;
+border-radius: 5px;
+}
+#final_comment_btn{
+background: blue
+}
