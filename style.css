@@ -17,7 +17,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .container_img{
-    padding: 30px 15px;
+    padding: 5px 15px;
     display: grid;
     grid-column-gap: 50px;
     background-color: white;
@@ -124,14 +124,17 @@
     border-radius: 5px;
 }
 
-#back_to_results{
-font-family: Arial, Helvetica, sans-serif;
+.back_to_results{
 color: orange;
-border-width: thin;
 border-radius: 5px;
 text-decoration: none;
 background-color: rgb(87, 84, 84);
-
-
+}
+#back_to_results{
+text-decoration: none;
+background-color: rgb(87, 84, 84);
+color: orange;
+font-family: Arial, Helvetica, sans-serif;
+font-size: thin;
 }
 
