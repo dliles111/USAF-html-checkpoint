@@ -1,0 +1,137 @@
+.body{
+    margin: 0;
+    background-color:white;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: rgb(79, 86, 94);
+}
+
+.container_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_img{
+    padding: 30px 15px;
+    display: grid;
+    grid-column-gap: 50px;
+    background-color: white;
+}
+
+.navbar_title_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+#site-name{
+    font-weight: lighter;
+    font-size: 20px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-blend-mode: luminosity;
+    margin-left: 15px;
+}
+
+.navbar_btn_left{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar_btn_home{
+    margin-left: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar_btn_login{
+    padding: 5px 5px;
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar_title_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.navbar_btn_right{
+    font-weight: lighter;
+    font-size: 15px; 
+    color: orange;
+    padding: 2px 2px;
+    border-color: orange;
+    border: 9px 1px;
+    padding: 8px 4px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-blend-mode: luminosity;
+}
+
+#search{
+    background: white;
+    box-sizing: content-box;
+    height: 30px;
+    box-sizing: 50px;
+    border-radius: 5px;
+}
+
+.main_login_title{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 25px; 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_login_text{
+    font-weight: lighter;
+    font-size: 12px; 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130%;
+    padding: 10px 75px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.main_login_btn{
+    font-weight: lighter;
+    font-size: 12px; 
+    color: white;
+    background: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 95px;
+    padding: 7px 5px;
+    border-width: thin;
+    border-color: blue;
+    border-radius: 5px;
+}
+
+#back_to_results{
+font-family: Arial, Helvetica, sans-serif;
+color: orange;
+border-width: thin;
+border-radius: 5px;
+text-decoration: none;
+background-color: rgb(87, 84, 84);
+
+
+}
+
